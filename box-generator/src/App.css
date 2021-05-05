@@ -1,0 +1,23 @@
+.container {
+  margin: auto;
+  margin-top: 10vh;
+  text-align: center;
+}
+
+#label {
+  margin-right: 8px;
+}
+
+#btn {
+  background-color: cornflowerblue;
+  border-radius: 4px;
+  color: white;
+  margin-left: 8px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin: 4px;
+}
