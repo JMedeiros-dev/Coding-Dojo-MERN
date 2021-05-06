@@ -1,0 +1,28 @@
+.App {
+  margin: auto;
+  justify-content: center;
+}
+
+.btn {
+  margin-top: 10vh;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  width: 120px;
+  height: 50px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid lightgray;
+  background-color: white;
+}
+
+.contentBox {
+  width: 35vw;
+  height: 15vh;
+  margin-left: 10px;
+  border: 1px solid lightgray;
+}
+
+.contentContent {
+  margin-left: 12px;
+}
