@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Welcome path="/home"/>
         <Word path="/:input"/>
-        <Color path="/:input/:color/:bg" />
+        <Color path="/:input/:bg/:color" />
       </Router>
     </div>
   );
