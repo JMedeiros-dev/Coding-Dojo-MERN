@@ -10,7 +10,7 @@ const PlayerStatus = props => {
     useEffect(() => {
         axios.get(`http://localhost:8000/api/players/${playerId}`)
             .then(res => setPlayer(res.data))
-    }, [])
+    }, [player])
     
     const GameStatusHandler = playerStatus => {
         axios.put(`http://localhost:8000/api/players/${playerId}`, {...player, status: 
@@ -19,7 +19,7 @@ const PlayerStatus = props => {
             [`game${gameId}`]: playerStatus
         }
     })
-        .then(res => {console.log("game status updated!")})
+        .then(res => {setPlayer(player})
         .catch(err => {console.log(err)})
     }
     
